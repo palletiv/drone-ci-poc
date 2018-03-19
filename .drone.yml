@@ -3,5 +3,6 @@ pipeline:
     image: redis
     commands:
       - env
+      - echo "This is TCS Property"
     when:
       event: push
